@@ -52,7 +52,7 @@ document.getElementById("uppercase").addEventListener("click", function () {
   setTextAreaClass("uppercase", caseCount);
 });
 
-document.getElementById("color").addEventListener("mouseout", function () {
+document.getElementById("color").addEventListener("change", function () {
   const color = document.getElementById("color").value;
   document.getElementById("xoxo").classList.add("text-[" + color + "]");
 });
